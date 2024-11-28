@@ -7,6 +7,7 @@ import { useDispatch } from "react-redux";
 import Todos from "./Todos";
 const AddTodo = () => {
     const [input, setInput] = useState("");
+    
     const dispatch = useDispatch();
 
     const inputRef = useRef(null);
