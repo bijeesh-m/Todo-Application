@@ -1,0 +1,80 @@
+*{
+    /* text-align: center; */
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    padding:20px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 1000px;
+    min-height: 500px;
+    background-color: rgb(59, 220, 161);
+}
+.form{
+    display: flex;
+}
+
+.todo{
+    width: 500px;
+    height: 40px;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(243, 195, 243);
+    text-shadow: 1px 1px 1px rgb(218, 215, 215);
+    font-family:cursive;
+    border-radius: 5px;
+    margin-top: 20px ;
+  }
+
+.todos{
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+.delete-btn{
+    /* background-color: #fff; */
+    width: 150px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-top: 20px ;
+}
+
+.editInputBox{
+    width: 100%;
+    border: none;
+    background-color: rgb(243, 195, 243);
+    text-shadow: 1px 1px 1px rgb(218, 215, 215);
+    font-family:cursive;
+}
+.editInputBox:focus{
+    box-shadow: none;
+    background-color: rgb(243, 195, 243);
+    text-shadow: 1px 1px 1px rgb(218, 215, 215);
+    font-family:cursive;
+}
+.input{
+    margin-right: 10px;
+    width: 700px;
+}
+
+.input:focus{
+    box-shadow: none;
+}
